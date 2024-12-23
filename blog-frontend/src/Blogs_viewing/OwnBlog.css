@@ -1,0 +1,147 @@
+/* General Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.BlogMeta :nth-last-child(1){
+    margin-left: 25vw;
+}
+
+/* Body Styling */
+.BlogList {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.ListHead header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ListHead h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.WriteBlogBtn {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #6b5ad4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.WriteBlogBtn:hover {
+    background-color: #8b78e6;
+}
+
+/* Blog Container */
+.BlogContainer {
+    width: 100%;
+    max-height: 500px; /* Adjust height based on your layout */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 10px;
+}
+
+/* Blog Item */
+.BlogItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(139, 120, 230, 0.2), rgba(107, 90, 212, 0.2));
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.BlogItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog Title */
+.BlogTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+/* Blog Author */
+.BlogAuthor {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Blog Snippet */
+.BlogSnippet {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Read More Button */
+.ReadMore {
+    text-decoration: none;
+    color: #fff;
+    background-color: #6b5ad4;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.ReadMore:hover {
+    background-color: #8b78e6;
+}
+
+.BlogContainer::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2); /* Thumb color */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.BlogContainer::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3); /* Hover effect for thumb */
+}
+
+.BlogContainer::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); /* Track color */
+}
+
+.BackDashboardBtn {
+    padding: 10px 20px;
+    font-size: 14px;
+    background: #8b78e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.BackDashboardBtn:hover {
+    background: #6b5ad4;
+}

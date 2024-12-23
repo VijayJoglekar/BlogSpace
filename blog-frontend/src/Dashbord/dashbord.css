@@ -1,0 +1,154 @@
+.dashboard-container {
+    width: 100%;
+    max-width: 50vw;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container {
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.user-name {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.user-email {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.logout-btn {
+    padding: 12px 18px;
+    background: #f03a3a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.logout-btn:hover {
+    background: #e02e2e;
+}
+
+.section-header {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: 2px solid #8b78e6;
+    padding-bottom: 8px;
+}
+
+.blog-container {
+    margin-bottom: 30px;
+}
+
+.no-blogs-message {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.no-blogs-message p {
+    margin-bottom: 15px;
+}
+
+.write-blog-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #8b78e6, #6b5ad4);
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.write-blog-btn:hover {
+    background: linear-gradient(90deg, #6b5ad4, #8b78e6);
+}
+
+.account-settings-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.update-account-btn {
+    width: 100%;
+    padding: 12px 18px;
+    background: #8b78e6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.update-account-btn:hover {
+    background: #6b5ad4;
+}
+
+
+.explore-blogs-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4; /* Light background color */
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .explore-blogs-message p {
+    font-size: 16px;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px;
+  }
+  
+  .explore-blogs-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(90deg, #6b5ad4, #8b78e6);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  .explore-blogs-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  
+  .explore-blogs-btn:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add a custom focus shadow */
+  }
+  

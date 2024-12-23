@@ -1,0 +1,41 @@
+.RestPassContainer{
+    width: 100%;
+    width: 420px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px 25px;
+    transition: all 0.3s ease;
+}
+.RestPassContainer:hover {
+    transform: scale(1.05);
+}
+
+.RPsubmit{
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(90deg, #8b78e6, #6b5ad4);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.RPsubmit:hover{
+    background: linear-gradient(90deg, #6b5ad4, #8b78e6);
+}
+
+.RPinput{
+    width: 100%;
+    padding: 14px 15px 14px 40px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    background: #f9f9f9;
+    transition: 0.3s ease;
+    margin-bottom: 25px;
+}
