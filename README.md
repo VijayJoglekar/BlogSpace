@@ -1,5 +1,13 @@
 # 🌟 BlogSpace
 
+<div align="center">
+  <a href="https://youtu.be/hCZKdix3E0E" target="_blank">
+    <img src="https://img.youtube.com/vi/hCZKdix3E0E/maxresdefault.jpg" alt="BlogSpace Demo" style="width:100%;max-width:600px;border-radius:8px;cursor:pointer;box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+    <br>
+    <em>▶️ Click to play demo video</em>
+  </a>
+</div>
+
 **BlogSpace** is a full-stack blog management system designed to help users create, manage, and explore blogs efficiently. Built with **Django** for the backend and **React** for the frontend, the application incorporates token-based authentication and offers a seamless user experience.
 
 ---
@@ -52,5 +60,5 @@
 ### **Backend Setup**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/BlogSpace.git
+   git clone https://github.com/VijayJoglekar/BlogSpace.git
    cd BlogSpace/backend
